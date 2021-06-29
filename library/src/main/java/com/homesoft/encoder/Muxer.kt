@@ -79,7 +79,7 @@ class Muxer(private val context: Context, private val file: File) {
         frameBuilder.releaseVideoCodec()
 
         // Add audio
-        frameBuilder.muxAudioFrames()
+        //frameBuilder.muxAudioFrames()
 
         // Release everything
         frameBuilder.releaseAudioExtractor()
